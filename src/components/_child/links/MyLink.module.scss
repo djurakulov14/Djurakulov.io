@@ -1,0 +1,25 @@
+.MyLink {
+    background-color: #6495ed50;
+    border-radius:100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: .3s ease;
+    &:hover {
+        position: relative;
+        bottom: 15px;
+    }
+}
+
+.ishov {
+    background-color: #6495ed50;
+    border-radius:100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: .3s ease;
+}
