@@ -58,6 +58,20 @@ export const ThirdSection = () => {
                     </div>
                 </div>
             </div>
+            <div className="item">
+                <div className="top">
+                    <h1>OPTS-website</h1>
+                    <h3>Website for Omega Premier Travel Service</h3>
+                    <div className="linkss">
+                        <MyLink href="https://github.com/djurakulov14/OPTS-Travel.git"><BsGithub size={40}/></MyLink>
+                        <MyLink href="https://opts.tours"><img src='https://cdn-icons-png.flaticon.com/512/493/493805.png'/></MyLink>
+                    </div>
+                    <div className="skills">
+                        <Skill>Next.js</Skill>
+                        <Skill>TailwindCSS</Skill>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
   )
