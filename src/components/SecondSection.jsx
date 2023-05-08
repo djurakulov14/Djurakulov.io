@@ -1,5 +1,4 @@
 import React from 'react'
-import { RiEmotionSadFill } from 'react-icons/ri';
 import { Skill } from './_child/MySkill.jsx/Skill';
 
 export const SecondSection = () => {
@@ -8,8 +7,11 @@ export const SecondSection = () => {
         <div className="left">
             <h1>Experience</h1>
             <div className="blocks">
-                <h2>Unfurtunately, I didn't worked any where</h2>
-                <RiEmotionSadFill color='white' size={40}/>
+                <div className="block">
+                    <h2>Omega Premier Travel Service</h2>
+                    <h2>Frontend Developer</h2>
+                    <h3>February-2023 / Still</h3>
+                </div>
             </div>
         </div>
         <div className="line"></div>
@@ -17,7 +19,7 @@ export const SecondSection = () => {
             <h1>Education</h1>
             <div className="blocks">
                 <div className="block">
-                    <h2>Now I'm studying at intermidate school</h2>
+                    <h2>Now I'm studying at school</h2>
                 </div>
                 <div className="block">
                     <h2>I studied front-end at Wepro IT school</h2>
